@@ -12,7 +12,7 @@ npm install --save-dev gulp-jscrush
 #### Use
 ```javascript
 var gulp = require('gulp');
-var jscrush = require('./index');
+var jscrush = require('gulp-jscrush');
 
 gulp.task('default', function(){
     gulp.src('./test.js')
