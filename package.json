@@ -1,0 +1,34 @@
+{
+    "name": "gulp-jscrush",
+    "version": "1.0.0",
+    "description": "Minify files with JSCrush",
+    "keywords": [
+        "gulpplugin"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/VFK/gulp-jscrush.git"
+    },
+    "author": {
+        "name": "Vladimir Kucherenko",
+        "email": "kvsoftware@gmail.com"
+    },
+    "main": "./index.js",
+    "scripts": {
+        "test": "mocha --reporter spec"
+    },
+    "engines": {
+        "node": ">= 0.9"
+    },
+    "dependencies": {
+        "through2": "~0.4.1",
+        "jscrush": "0.0.0",
+        "bufferstreams": "0.0.1"
+    },
+    "devDependencies": {
+        "mocha": "^1.18.0",
+        "event-stream": "^3.1.0",
+        "gulp-util": "^2.2.14"
+    },
+    "license": "MIT"
+}
